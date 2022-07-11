@@ -1,0 +1,54 @@
+[
+  {
+    "id": "1",
+    "createdAt": "6 months ago",
+    "title": "Bleach Thousand Year Blood War Arc Official Trailer 2",
+    "thumbnail": "https://i.ytimg.com/vi/xv-VH_QDfT4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAQ19EHZUMcDbp9T8zlM8FpIfaz4w",
+    "videoUrl": "",
+    "duration": 384,
+    "user": {
+      "name": "Strider",
+      "image": "https://avatars.githubusercontent.com/u/84827162?v=4"
+    },
+    "views": 8300000
+  },
+  {
+    "id": "2",
+    "createdAt": "2 months ago",
+    "title": "Blades of the guardians - Official Trailer",
+    "thumbnail": "https://i.ytimg.com/vi/r518nf259ZE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAmdeCFEEYf0g4RQ3-XViqiLlo36Q",
+    "videoUrl": "",
+    "duration": 128,
+    "user": {
+      "name": "Strider",
+      "image": "https://avatars.githubusercontent.com/u/84827162?v=4"
+    },
+    "views": 3300000
+  },
+  {
+    "id": "3",
+    "createdAt": "1 months ago",
+    "title": "The Imperfects - Official Teaser | NETFLIX",
+    "thumbnail": "https://i.ytimg.com/vi/aEs2ziTArdk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCvXAhKQxIytSk4h68orZnEwY4EPQ",
+    "videoUrl": "",
+    "duration": 70,
+    "user": {
+      "name": "Strider",
+      "image": "https://avatars.githubusercontent.com/u/84827162?v=4"
+    },
+    "views": 4000000
+  },
+  {
+    "id": "4",
+    "createdAt": "1 months ago",
+    "title": "Luffy vs Kaido Epic Fight | One Piece",
+    "thumbnail": "https://i.ytimg.com/vi/kKb9SY7x9Dk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB-bPcc0zllt_IJqoRpdWj57dYlRw",
+    "videoUrl": "",
+    "duration": 305,
+    "user": {
+      "name": "Strider",
+      "image": "https://avatars.githubusercontent.com/u/84827162?v=4"
+    },
+    "views": 1700000
+  }
+]
