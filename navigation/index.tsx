@@ -21,6 +21,7 @@ import ModalScreen from '../screens/ModalScreen';
 import NotFoundScreen from '../screens/NotFoundScreen';
 import TabOneScreen from '../screens/TabOneScreen';
 import TabTwoScreen from '../screens/TabTwoScreen';
+import VideoScreen from '../screens/VideoScreen/VideoScreen';
 import {
   RootStackParamList,
   RootTabParamList,
@@ -110,7 +111,7 @@ function BottomTabNavigator() {
       />
       <BottomTab.Screen
         name='TabTwo'
-        component={TabTwoScreen}
+        component={VideoScreen}
         options={{
           title: 'Tab Two',
           tabBarIcon: ({ color }) => <TabBarIcon name='code' color={color} />,

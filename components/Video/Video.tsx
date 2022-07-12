@@ -78,6 +78,7 @@ const Video = ({ video }: Props) => {
                 : video.views < 1000
                 ? video.views
                 : video.views / 1000000 + 'M'}{' '}
+              views{' '}
             </Text>
             <Text style={styles.text_grey}>{'\u00B7'} </Text>
             <Text style={styles.text_grey}>{video.createdAt}</Text>
