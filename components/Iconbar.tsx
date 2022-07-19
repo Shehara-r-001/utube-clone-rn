@@ -43,11 +43,29 @@ const Iconbar = () => {
         <View style={styles.icon_view}>
           <MaterialCommunityIcons
             style={styles.icon}
+            name='motion-play'
+            size={28}
+            color='white'
+          />
+          <Text style={styles.icon_text}>Create</Text>
+        </View>
+        <View style={styles.icon_view}>
+          <MaterialCommunityIcons
+            style={styles.icon}
             name='download-outline'
             size={28}
             color='white'
           />
           <Text style={styles.icon_text}>Download</Text>
+        </View>
+        <View style={styles.icon_view}>
+          <MaterialCommunityIcons
+            style={styles.icon}
+            name='content-cut'
+            size={24}
+            color='white'
+          />
+          <Text style={styles.icon_text}>Cut</Text>
         </View>
         <View style={styles.icon_view}>
           <MaterialCommunityIcons
