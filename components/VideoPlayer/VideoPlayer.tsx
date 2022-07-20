@@ -14,7 +14,7 @@ const VideoPlayer = ({ videoURL, thumbnailURL }: Props) => {
     <View>
       <Video
         source={{
-          uri: 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+          uri: videoURL,
         }}
         style={{ width: '100%', aspectRatio: 16 / 9 }}
         posterSource={{ uri: thumbnailURL }}

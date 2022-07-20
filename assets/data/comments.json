@@ -1,56 +1,86 @@
-[{
-  "id": "1",
-  "createdAt": "5 months ago",
-  "comment": "Cool video!",
-  "user": {
-    "name": "Graham Stephan",
-    "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/graham.jpg"
+[
+  {
+    "id": "1",
+    "createdAt": "1 month ago",
+    "comment": "Cool video!",
+    "user": {
+      "name": "Strider",
+      "image": "https://avatars.githubusercontent.com/u/84827162?v=4"
+    },
+    "likes": 99,
+    "dislikes": 6,
+    "replies": 8
   },
-  "likes": 123,
-  "dislikes": 2,
-  "replies": 6
-}, {
-  "id": "2",
-  "createdAt": "5 months ago",
-  "comment": "Thanks )",
-  "user": {
-    "name": "Vadim Savin",
-    "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/vadim.jpg"
+  {
+    "id": "2",
+    "createdAt": "1 month ago",
+    "comment": "Thanks )",
+    "user": {
+      "name": "Shehara r",
+      "image": "https://avatars.githubusercontent.com/u/84827162?v=4"
+    },
+    "likes": 11,
+    "dislikes": 2,
+    "replies": 6
   },
-  "likes": 113,
-  "dislikes": 2,
-  "replies": 6
-}, {
-  "id": "3",
-  "createdAt": "5 months ago",
-  "comment": "Lorem Ipsum",
-  "user": {
-    "name": "Vadim Savin",
-    "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/vadim.jpg"
+  {
+    "id": "3",
+    "createdAt": "1 month ago",
+    "comment": "Awesome..",
+    "user": {
+      "name": "Spooky",
+      "image": "https://avatars.githubusercontent.com/u/84827162?v=4"
+    },
+    "likes": 161,
+    "dislikes": 1,
+    "replies": 7
   },
-  "likes": 113,
-  "dislikes": 2,
-  "replies": 6
-}, {
-  "id": "4",
-  "createdAt": "5 months ago",
-  "comment": "Thanks )",
-  "user": {
-    "name": "Vadim Savin",
-    "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/vadim.jpg"
+  {
+    "id": "4",
+    "createdAt": "1 month ago",
+    "comment": "Thats the one",
+    "user": {
+      "name": "Strider",
+      "image": "https://avatars.githubusercontent.com/u/84827162?v=4"
+    },
+    "likes": 117,
+    "dislikes": 2,
+    "replies": 16
   },
-  "likes": 113,
-  "dislikes": 2,
-  "replies": 6
-}, {
-  "id": "5",
-  "createdAt": "5 months ago",
-  "comment": "Thanks )",
-  "user": {
-    "name": "Vadim Savin",
-    "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/vadim.jpg"
+  {
+    "id": "5",
+    "createdAt": "1 month ago",
+    "comment": "MMMmmmmmmm",
+    "user": {
+      "name": "Batman",
+      "image": "https://avatars.githubusercontent.com/u/84827162?v=4"
+    },
+    "likes": 11,
+    "dislikes": 1,
+    "replies": 2
   },
-  "likes": 113,
-  "dislikes": 2,
-  "replies": 6
-}]
+  {
+    "id": "6",
+    "createdAt": "1 month ago",
+    "comment": "Thats the one",
+    "user": {
+      "name": "Strider",
+      "image": "https://avatars.githubusercontent.com/u/84827162?v=4"
+    },
+    "likes": 111,
+    "dislikes": 2,
+    "replies": 9
+  },
+  {
+    "id": "7",
+    "createdAt": "1 month ago",
+    "comment": "MMMmmmmmmm",
+    "user": {
+      "name": "Batman",
+      "image": "https://avatars.githubusercontent.com/u/84827162?v=4"
+    },
+    "likes": 82,
+    "dislikes": 2,
+    "replies": 7
+  }
+]
