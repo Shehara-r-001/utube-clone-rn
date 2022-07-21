@@ -135,7 +135,7 @@ const VideoScreen = () => {
           >
             <BottomSheetScrollView
               contentContainerStyle={{
-                backgroundColor: 'black',
+                backgroundColor: '#1a1a1a',
                 flex: 1,
               }}
             >
