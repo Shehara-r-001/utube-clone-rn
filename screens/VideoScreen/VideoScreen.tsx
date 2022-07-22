@@ -17,7 +17,6 @@ import Video from '../../components/Video/Video';
 import VideoPlayer from '../../components/VideoPlayer/VideoPlayer';
 import BottomSheet, { BottomSheetScrollView } from '@gorhom/bottom-sheet';
 import Comments from '../../components/Comments/Comments';
-import { ScrollView as SVGH } from 'react-native-gesture-handler';
 
 const VideoScreen = () => {
   const commentBoxRef = useRef<BottomSheet>(null);
@@ -132,6 +131,9 @@ const VideoScreen = () => {
             snapPoints={['1%', '100%']}
             index={0}
             enablePanDownToClose
+            backgroundComponent={({ style }) => (
+              <View style={[style, { backgroundColor: '#1a1a1a' }]} />
+            )}
           >
             <BottomSheetScrollView
               contentContainerStyle={{

@@ -3,7 +3,12 @@
  * https://reactnavigation.org/docs/getting-started
  *
  */
-import { FontAwesome } from '@expo/vector-icons';
+import {
+  FontAwesome,
+  Entypo,
+  AntDesign,
+  MaterialIcons,
+} from '@expo/vector-icons';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import {
   NavigationContainer,
@@ -63,6 +68,11 @@ function RootNavigator() {
         component={NotFoundScreen}
         options={{ title: 'Oops!' }}
       />
+      <Stack.Screen
+        name='VideoScreen'
+        component={VideoScreen}
+        options={{ title: 'Video Screen' }}
+      />
       <Stack.Group screenOptions={{ presentation: 'modal' }}>
         <Stack.Screen name='Modal' component={ModalScreen} />
       </Stack.Group>
@@ -90,22 +100,9 @@ function BottomTabNavigator() {
         name='TabOne'
         component={HomeScreen}
         options={({ navigation }: RootTabScreenProps<'TabOne'>) => ({
-          title: 'Tab One',
-          tabBarIcon: ({ color }) => <TabBarIcon name='code' color={color} />,
-          headerRight: () => (
-            <Pressable
-              onPress={() => navigation.navigate('Modal')}
-              style={({ pressed }) => ({
-                opacity: pressed ? 0.5 : 1,
-              })}
-            >
-              <FontAwesome
-                name='info-circle'
-                size={25}
-                color={Colors[colorScheme].text}
-                style={{ marginRight: 15 }}
-              />
-            </Pressable>
+          title: 'Home',
+          tabBarIcon: ({ color }) => (
+            <Entypo name='home' size={24} color={color} />
           ),
         })}
       />
@@ -113,8 +110,40 @@ function BottomTabNavigator() {
         name='TabTwo'
         component={VideoScreen}
         options={{
-          title: 'Tab Two',
-          tabBarIcon: ({ color }) => <TabBarIcon name='code' color={color} />,
+          title: 'Shorts',
+          tabBarIcon: ({ color }) => (
+            <AntDesign name='play' size={24} color={color} />
+          ),
+        }}
+      />
+      <BottomTab.Screen
+        name='TabThree'
+        component={TabTwoScreen}
+        options={{
+          title: '',
+          tabBarIcon: ({ color }) => (
+            <AntDesign name='pluscircleo' size={24} color={color} />
+          ),
+        }}
+      />
+      <BottomTab.Screen
+        name='TabFour'
+        component={TabTwoScreen}
+        options={{
+          title: 'Subscriptions',
+          tabBarIcon: ({ color }) => (
+            <MaterialIcons name='subscriptions' size={24} color={color} />
+          ),
+        }}
+      />
+      <BottomTab.Screen
+        name='TabFive'
+        component={TabTwoScreen}
+        options={{
+          title: 'Library',
+          tabBarIcon: ({ color }) => (
+            <MaterialIcons name='video-library' size={24} color={color} />
+          ),
         }}
       />
     </BottomTab.Navigator>

@@ -27,6 +27,7 @@ const linking: LinkingOptions<RootStackParamList> = {
           },
         },
       },
+      VideoScreen: 'video',
       Modal: 'modal',
       NotFound: '*',
     },

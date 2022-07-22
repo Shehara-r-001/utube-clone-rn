@@ -1,7 +1,8 @@
-import { View, Text, Image } from 'react-native';
+import { View, Text, Image, Pressable } from 'react-native';
 import React from 'react';
 import { Entypo } from '@expo/vector-icons';
 import styles from './styles';
+import { useNavigation } from '@react-navigation/native';
 
 type Props = {
   video: {
@@ -23,8 +24,14 @@ type Props = {
 };
 
 const Video = ({ video }: Props) => {
+  const navigation = useNavigation();
+
+  const onPressHandler = () => {
+    navigation.navigate('VideoScreen');
+  };
+
   return (
-    <View style={styles.video_container}>
+    <Pressable onPress={onPressHandler} style={styles.video_container}>
       <View style={{ position: 'relative' }}>
         <Image
           style={styles.thumbnail}
@@ -88,7 +95,7 @@ const Video = ({ video }: Props) => {
           <Entypo name='dots-three-vertical' size={18} color='white' />
         </View>
       </View>
-    </View>
+    </Pressable>
   );
 };
 
