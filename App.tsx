@@ -5,6 +5,7 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 import useCachedResources from './hooks/useCachedResources';
 import useColorScheme from './hooks/useColorScheme';
 import Navigation from './navigation';
+import { StatusBar as StatusBarRN } from 'react-native';
 
 export default function App() {
   const isLoadingComplete = useCachedResources();
@@ -17,7 +18,8 @@ export default function App() {
       <GestureHandlerRootView style={{ flex: 1 }}>
         <SafeAreaProvider>
           <Navigation colorScheme={'dark'} />
-          <StatusBar />
+          {/* <StatusBar backgroundColor='white' /> */}
+          <StatusBarRN barStyle={'light-content'} />
         </SafeAreaProvider>
       </GestureHandlerRootView>
     );

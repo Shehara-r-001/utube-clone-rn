@@ -18,6 +18,7 @@ import {
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import * as React from 'react';
 import { ColorSchemeName, Pressable } from 'react-native';
+import Header from '../components/Header/Header';
 
 import Colors from '../constants/Colors';
 import useColorScheme from '../hooks/useColorScheme';
@@ -94,6 +95,7 @@ function BottomTabNavigator() {
       initialRouteName='TabOne'
       screenOptions={{
         tabBarActiveTintColor: Colors[colorScheme].tint,
+        header: () => <Header />,
       }}
     >
       <BottomTab.Screen
@@ -108,7 +110,7 @@ function BottomTabNavigator() {
       />
       <BottomTab.Screen
         name='TabTwo'
-        component={VideoScreen}
+        component={TabTwoScreen}
         options={{
           title: 'Shorts',
           tabBarIcon: ({ color }) => (
